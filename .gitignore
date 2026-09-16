@@ -1,0 +1,33 @@
+# Environment variables — NEVER upload this
+.env
+
+# Virtual environment — too large, unnecessary
+venv/
+
+# Vector database — rebuilds automatically
+chroma_db/
+
+# Uploaded resumes — private user data
+uploaded_resumes/
+
+# BM25 nodes — rebuilds automatically
+nodes.pkl
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac system files
+.DS_Store
+
+# Test results — optional, up to you
+ab_test_results.csv
+ragas_results.csv
+
+# IDE files
+.vscode/
+.idea/
+
+
+data/
